@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="v3yHyVgrEeekbrRQAmRt">
+    <mxGraphModel dx="1737" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="User" vertex="1">
+          <mxGeometry height="1368" width="150" x="29" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="SaaS CRM System" vertex="1">
+          <mxGeometry height="1368" width="150" x="268" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Payment Gateway" vertex="1">
+          <mxGeometry height="1368" width="150" x="500" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Notification Service" vertex="1">
+          <mxGeometry height="1368" width="157" x="700" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-5" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="1006" width="770" x="20" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-6" parent="5ia_7qb1IZ0jPANoVyac-5" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Login Valid?]" vertex="1">
+          <mxGeometry height="20" width="740" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-7" parent="5ia_7qb1IZ0jPANoVyac-5" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[No]" vertex="1">
+          <mxGeometry height="3" width="770" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-8" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-2" value="Start">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-9" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-2" value="Submit Login Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-10" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-2" style="curved=1;endArrow=block;rounded=0;" target="5ia_7qb1IZ0jPANoVyac-2" value="Validate Credentials">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="237" />
+              <mxPoint x="394" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-11" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-1" value="Load User Workspace">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-12" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-2" value="Manage Lead &amp; Activity">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-13" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-2" style="curved=1;endArrow=block;rounded=0;" target="5ia_7qb1IZ0jPANoVyac-2" value="Process Lead &amp; Activity">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="476" />
+              <mxPoint x="394" y="506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-14" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-2" value="Request Invoice">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-15" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-2" style="curved=1;endArrow=block;rounded=0;" target="5ia_7qb1IZ0jPANoVyac-2" value="Generate Invoice">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="614" />
+              <mxPoint x="394" y="644" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-16" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-3" value="Send Payment Request">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="468" y="698" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-17" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-3" style="curved=1;endArrow=block;rounded=0;" target="5ia_7qb1IZ0jPANoVyac-3" value="Process Payment">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="626" y="752" />
+              <mxPoint x="626" y="782" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-18" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-2" value="Return Payment Result">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="836" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-19" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-2" style="curved=1;endArrow=block;rounded=0;" target="5ia_7qb1IZ0jPANoVyac-2" value="Update Payment Status">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="890" />
+              <mxPoint x="394" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-20" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-4" value="Trigger Notification">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="569" y="974" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-21" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5ia_7qb1IZ0jPANoVyac-1" value="Deliver Notification">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="453" y="1028" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-22" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-1" style="curved=1;endArrow=block;rounded=0;" target="5ia_7qb1IZ0jPANoVyac-1" value="End">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="1082" />
+              <mxPoint x="155" y="1112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ia_7qb1IZ0jPANoVyac-23" edge="1" parent="1" source="5ia_7qb1IZ0jPANoVyac-1" style="curved=1;endArrow=block;rounded=0;" target="5ia_7qb1IZ0jPANoVyac-1" value="End">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="1213" />
+              <mxPoint x="155" y="1243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
